@@ -61,7 +61,7 @@ class KalmanFilter {
 		void setFixed ( MatrixXf _A, MatrixXf _H, MatrixXf _Q, MatrixXf _R );
 
 		/* Set Fixed Matrix (WITH INPUT) */
-		void setFixed ( MatrixXf _A, MatrixXf _B, MatrixXf _H, MatrixXf _Q, MatrixXf _R );
+		void setFixed ( MatrixXf _A, MatrixXf _H, MatrixXf _Q, MatrixXf _R, MatrixXf _B );
 
 		/* Set Initial Value */
 		void setInitial( VectorXf _X0, MatrixXf _P0 );
